@@ -40,3 +40,36 @@ main{
 .content h1 span{
     font-weight: 600;
 }
+.content p{
+    text-align: center;
+    color: #fff;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.content p span{
+    font-weight: 550;
+}
+.content p.italic{
+    font-style: italic;
+}
+.content button{
+    font-family: "Poppins", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    padding: 0.47rem 3rem;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.content button:hover{
+    background-color: #c19c24;
+}
+.content button:active{
+    scale: 0.95;
+}
