@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
 }
-
 main{
     background-image: url(../images/bg.avif);
     background-size: cover;
@@ -116,9 +114,9 @@ main{
     margin-top: 0.3rem;
 }
 .content .foot-content p img{
-    width: 25px;
+    width: 27px;
     border-radius: 5px;
-    margin-bottom: -5px;    
+    margin-bottom: -6px;    
     margin-left: 3px;
 }
 .content .social-icons{
@@ -143,4 +141,140 @@ main{
 }
 .content .social-icons a:active{
     scale: 0.95;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    main{
+        padding: 3.5rem 0 6rem 0;
+    }
+    .logo img{
+        width: 230px;
+    }
+    .gift-card{
+        margin-top: 1.8rem;
+    }
+    .gift-card img{
+        width: 415px;
+    }
+    .content{
+        margin-top: 2.8rem;
+    }
+    .content h1{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .content button{
+        margin-top: 2.9rem;
+        margin-bottom: 0.5rem;
+        padding: 0.45rem 2.8rem;
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .content h2{
+        font-size: calc(1.8rem + 0.5vw);
+        margin-top: 2.9rem;
+    }
+    .content .join-btn-row{
+        gap: 2.9rem;
+    }
+    .content .join-btn-row button{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .content .foot-content{
+        margin-top: 3.8rem;
+        padding: 1.8rem;
+    }
+    .content .foot-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.28rem;
+    }
+    .content .foot-content p img{
+        width: 25px;
+        margin-bottom: -6px;    
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+    .content .social-icons{
+        margin-top: 3.2rem;
+        gap: 1.4rem;
+    }
+    .content .social-icons a{
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        font-size: calc(1rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    main{
+        padding: 3rem 0 6rem 0;
+    }
+    .logo img{
+        width: 205px;
+    }
+    .gift-card{
+        margin-top: 1.7rem;
+    }
+    .gift-card img{
+        width: 365px;
+    }
+    .content{
+        margin-top: 2.7rem;
+    }
+    .content h1{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .content button{
+        margin-top: 2.8rem;
+        padding: 0.42rem 2.7rem;
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .content h2{
+        font-size: calc(1.6rem + 0.5vw);
+        margin-top: 2.8rem;
+    }
+    .content .join-btn-row{
+        gap: 2.5rem;
+    }
+    .content .join-btn-row button{
+        font-size: calc(1.3rem + 0.5vw);
+        border: 1.5px solid #d4af37;
+    }
+    .content .foot-content{
+        margin-top: 3.6rem;
+        border: 1.5px solid #c7c7c7;
+        padding: 1.5rem;
+    }
+    .content .foot-content p{
+        font-size: calc(0.7rem + 0.5vw);
+        margin-top: 0.26rem;
+    }
+    .content .foot-content p img{
+        width: 23px;
+        margin-bottom: -6.5px;    
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+    .content .social-icons{
+        margin-top: 3rem;
+        gap: 1.4rem;
+    }
+    .content .social-icons a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
 }
