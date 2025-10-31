@@ -275,6 +275,77 @@ main{
     }
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 991px) {
+    main{
+        padding: 2.5rem 2rem 3rem 2rem;
+        overflow: hidden;
+    }
+    .logo img{
+        width: 60%;
+    }
+    .gift-card{
+        margin-top: 1rem;
+    }
+    .gift-card img{
+        width: 100%;
+    }
+    .content{
+        margin-top: 2.3rem;
+    }
+    .content h1{
+        font-size: calc(1.5rem + 0.5vw);
+        white-space: nowrap;
+    }
+    .content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .content button{
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0.3rem 2rem;
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .content h2{
+        font-size: calc(1.5rem + 0.5vw);
+        white-space: nowrap;
+        margin-top: 1.5rem;
+        line-height: 1.4;
+    }
+    .content .join-btn-row{
+        gap: 1rem;
+    }
+    .content .join-btn-row button{
+        font-size: calc(1.2rem + 0.5vw);
+        border: 1.5px solid #d4af37;
+        padding: 0.3rem 1.3rem;
+        white-space: nowrap;
+    }
+    .content .foot-content{
+        margin-top: 1.5rem;
+        border: 1.5px solid #c7c7c7;
+        padding: 0.6rem 0.8rem 0.8rem 0.8rem;
+        border-radius: 15px;
+    }
+    .content .foot-content p{
+        font-size: calc(0.7rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+    .content .foot-content p img{
+        width: 20px;
+        border-radius: 4px;
+        margin-bottom: -6px;    
+        margin-left: 4px;
+        margin-right: 2.3px;
+    }
+    .content .social-icons{
+        margin-top: 2rem;
+        gap: 1.2rem;
+    }
+    .content .social-icons a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: calc(1.2rem + 0.5vw);
+    }
 }
